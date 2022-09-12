@@ -1,0 +1,56 @@
+footer{
+    background-color: #cab2b0;
+    opacity: 80%;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    
+}
+.container.-footer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+footer h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+footer li{
+    color: #FFF;
+    margin-top: 5px;
+    list-style: none;
+    display: flex;
+    
+}
+
+.container.-autorais{
+    font-size: 14px;
+    text-align: center;
+    border-top: 1px solid #b8a5a3;
+    padding: 40px 0;
+}
+
+.logos-pagamentos{
+    width: 50px;
+    height: 40px;
+}
+
+
+@media( max-width: 800px){
+    .container.-footer{
+        flex-direction: column;
+        text-align: center;
+        padding-top: 60;
+    }
+    footer li{
+        justify-content: center;
+    }
+    footer h1{
+        margin-top: 20px;
+        
+    }
+}

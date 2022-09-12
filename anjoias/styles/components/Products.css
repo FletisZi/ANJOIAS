@@ -1,0 +1,100 @@
+.-primary{
+    background-color: #f6f6f6;
+}
+
+
+.-product{
+    padding: 50px;
+    text-align: center;
+    
+}
+
+.-product button{
+    font-family: "Aboreto", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: none;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 8px 30px;
+
+}
+
+article{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    padding: 40px 0;
+}
+article div{
+    height: 450px;
+}
+
+article img{
+    width: 100%;
+    height: 100%;
+}
+.img-products{
+    width: 92%;
+    height: 304px;
+    background-color: #FFF;
+    margin: 0 auto;
+    
+}
+
+.-product h3{
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+    color: #d8af54;
+
+}
+.-product h1{
+    font-size: 30px;
+}
+
+article h2{
+    font-family: "Roboto",sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.-product article h3{
+    font-family: "Roboto",sans-serif;
+    font-size: 16px;
+    color: #e8917b;
+    margin-top: 15px;
+    
+}
+span{
+    text-decoration: line-through;
+    margin-left: 5px;
+}
+.button-toCard{
+    color: #e8917b;
+}
+
+
+
+@media( max-width: 900px){
+    article{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media( max-width: 780px){
+    article{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+}
+@media( max-width: 600px){
+    article{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .-product h1{
+        font-size: 24px;
+    }
+
+}

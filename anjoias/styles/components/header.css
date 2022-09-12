@@ -1,0 +1,95 @@
+header{
+    width: 100%;
+    background-color: #faf4ec;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0 ;
+}
+
+.container-secund{
+    display: flex;
+    align-items: center;
+}
+
+#img-banner{
+    height: 80vh;
+    width: 100%;
+    background-image: url(../../images/fundo-Header-1.png);
+    background-repeat: no-repeat ;
+    background-size:contain;
+    background-position: left bottom;
+    text-align: center;
+}
+
+
+.bar-nav{
+    position: absolute;
+    width: 100%;
+}
+
+.logo{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 29px;
+}
+
+
+
+nav{
+    font-family: "Aboreto", sans-serif;
+    font-size: 18px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    display: inline-flex;
+    align-items: center;
+    transition: linear 0.25s;
+}
+
+nav a::after{
+    content: url('../../images/seta.png');
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+    
+}
+
+.menu{
+    background-image: url(../../images/menu.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+    width:50px;
+    height: 50px;
+    
+}
+
+
+
+@media(max-width: 1120px){
+    #menu1{
+        display: none;
+    }
+    .menu{
+        display: initial;
+    }
+}
+@media(max-width: 550px){
+    
+    #img-banner {
+        background-image: url(../../images/fundo-Header-2.png);
+        
+    }
+}
+
+

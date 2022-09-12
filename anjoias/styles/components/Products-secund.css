@@ -1,0 +1,31 @@
+article.-acessorios{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    padding: 40px 0;
+}
+
+@media( max-width: 780px){
+    article.-acessorios{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media( max-width: 600px){
+
+    .-product h1{
+        font-size: 24px;
+    }
+    article.-acessorios{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media( max-width: 400px){
+    .-product h1{
+        font-size: 20px;
+    }
+
+}

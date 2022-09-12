@@ -1,0 +1,33 @@
+.listaShipping{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+}
+.listaShipping li{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.listaShipping img{
+    margin-right: 10px;
+}
+
+
+@media (max-width: 850px){
+    .listaShipping{
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 440px){
+    .listaShipping{
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
